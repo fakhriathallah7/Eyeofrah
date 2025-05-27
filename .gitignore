@@ -256,3 +256,15 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+
+# Virtual environment
+venv/
+
+# PyTorch/Python specific
+__pycache__/
+
+# Dataset (if you extracted it locally or downloaded it)
+dataset/
+
+# Large log files
+runs/train/*/events.out.tfevents*

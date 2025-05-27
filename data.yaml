@@ -1,0 +1,14 @@
+path: ./dataset 
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Pistol', 'handgun', 'knife', 'pistol', 'rifle']
+
+roboflow:
+  workspace: president-university-bncql
+  project: handgun-detection-lrxb3-kjhzv
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/president-university-bncql/handgun-detection-lrxb3-kjhzv/dataset/1
