@@ -1,10 +1,10 @@
-path: ./dataset 
+path: ./dataset
 train: ../train/images
 val: ../valid/images
 test: ../test/images
 
 nc: 5
-names: ['Pistol', 'handgun', 'knife', 'pistol', 'rifle']
+names: ["Pistol", "handgun", "knife", "pistol", "rifle"]
 
 roboflow:
   workspace: president-university-bncql
